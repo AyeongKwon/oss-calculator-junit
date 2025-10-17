@@ -16,7 +16,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-contents: write # needed to create/update releases
+  contents: write # needed to create/update releases
 
 jobs:
   build:
